@@ -6,7 +6,7 @@
         {
             "label": "zig-debug-build",
             "type": "shell",
-            "command": "zig build"
+            "command": "zig build -Doptimize=Debug"
         },
     ]
 }
